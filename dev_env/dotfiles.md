@@ -6,7 +6,7 @@
 
 1.  创建.dotfiles目录
 2.  以zshrc为文件名，将.zshrc移动到.dotfiles目录
-3.  `ln -s ~/.zshrc ~/.dotfiles/zshrc`
+3.  `ln -s ~/.dotfiles/zshrc ~/.zshrc`
 
 如果已经有了dotfiles目录，使用`lsrc`可以看到该目录下的文件以及对应在`$HOME`下的链接。如果在dotfiles里新增了一个文件，使用`rcup`可以把它link到`$HOME`下。
 
