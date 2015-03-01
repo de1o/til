@@ -15,3 +15,4 @@
 	# Local config
 	[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 
+**注意**  在新的机器上clone并rcup之后可能需要手动建立`.zshrc.local`文件。
